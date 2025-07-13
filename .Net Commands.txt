@@ -1,0 +1,4 @@
+=> For Help =>    dotnet --help
+=> New File Creation List =>    dotnet new list
+=> Run Program =>    dotnet run
+=> Run  Program after any change =>    dotnet watch
