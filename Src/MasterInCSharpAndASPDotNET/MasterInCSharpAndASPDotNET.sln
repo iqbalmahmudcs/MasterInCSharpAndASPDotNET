@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012ConstantAndMultipleVaria
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012DataTypeCasting", "012DataTypeCasting\012DataTypeCasting.csproj", "{AF6B812A-FEC0-40E2-AFF3-7A4CEFF8A066}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014UserInput", "014UserInput\014UserInput.csproj", "{F1BF02F2-D206-4E4F-929F-82675A07E0DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017Operations", "017Operations\017Operations.csproj", "{0ADAAAA8-5BB1-441E-969C-914ABC0EC849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{AF6B812A-FEC0-40E2-AFF3-7A4CEFF8A066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF6B812A-FEC0-40E2-AFF3-7A4CEFF8A066}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF6B812A-FEC0-40E2-AFF3-7A4CEFF8A066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1BF02F2-D206-4E4F-929F-82675A07E0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BF02F2-D206-4E4F-929F-82675A07E0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BF02F2-D206-4E4F-929F-82675A07E0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BF02F2-D206-4E4F-929F-82675A07E0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADAAAA8-5BB1-441E-969C-914ABC0EC849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADAAAA8-5BB1-441E-969C-914ABC0EC849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADAAAA8-5BB1-441E-969C-914ABC0EC849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADAAAA8-5BB1-441E-969C-914ABC0EC849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
