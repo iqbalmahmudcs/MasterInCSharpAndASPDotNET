@@ -8,8 +8,8 @@ namespace _058OOP
 {
     public class Person
     {
-        public string _name;
-        public  int _age;
+        public string _name { get; set; }
+        public  int _age { get; set; }
         public Person() { }
 
         public Person(string name, int age)

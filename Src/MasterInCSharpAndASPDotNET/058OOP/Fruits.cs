@@ -8,8 +8,8 @@ namespace _058OOP
 {
     public class Fruits
     {
-        private string _name;
-        private string _color;
+        public string _name { get; set; }
+        public string _color { get; set; }
         public Fruits() { }
 
         public Fruits(string name, string color)

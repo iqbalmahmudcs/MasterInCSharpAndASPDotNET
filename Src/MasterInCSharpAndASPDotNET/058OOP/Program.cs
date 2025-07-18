@@ -13,7 +13,7 @@ Person p3 = p1;
 p3.DisplayInfo();
 
 p3._name = "zzz";
-p3._age = 20;
+p3._age = 15;
 p3.DisplayInfo();
 p1.DisplayInfo();    // value changed
 
@@ -38,7 +38,10 @@ Console.WriteLine(x);     //value is not changed
 
 
 
-
+//Student
+Console.WriteLine();
+Student s1 = new Student(30);
+Console.WriteLine(s1._age);
 
 
 
