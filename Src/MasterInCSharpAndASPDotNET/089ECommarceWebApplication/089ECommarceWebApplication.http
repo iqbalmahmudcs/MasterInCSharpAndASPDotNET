@@ -1,0 +1,22 @@
+###
+
+GET https://localhost:5056
+
+###
+
+GET https://localhost:5056/api/catagories
+
+###
+
+POST https://localhost:5056/api/catagories
+
+###
+
+PUT https://localhost:5056/hello
+
+
+###
+
+POST https://localhost:5056/hello
+
+
