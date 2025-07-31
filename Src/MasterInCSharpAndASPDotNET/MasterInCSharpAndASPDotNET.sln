@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "084LINQOrderByAndThenBy", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "86 LINQ AggregationUsingMaxMinSumAverageCount", "86 LINQ AggregationUsingMaxMinSumAverageCount\86 LINQ AggregationUsingMaxMinSumAverageCount.csproj", "{F80AEC7E-5D0F-4769-A9EB-F611799CB2CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "089ECommarceWebApplication", "089ECommarceWebApplication\089ECommarceWebApplication.csproj", "{3B31212B-0D0D-413E-AF03-1C9BC6947611}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{F80AEC7E-5D0F-4769-A9EB-F611799CB2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F80AEC7E-5D0F-4769-A9EB-F611799CB2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F80AEC7E-5D0F-4769-A9EB-F611799CB2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B31212B-0D0D-413E-AF03-1C9BC6947611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B31212B-0D0D-413E-AF03-1C9BC6947611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B31212B-0D0D-413E-AF03-1C9BC6947611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B31212B-0D0D-413E-AF03-1C9BC6947611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
