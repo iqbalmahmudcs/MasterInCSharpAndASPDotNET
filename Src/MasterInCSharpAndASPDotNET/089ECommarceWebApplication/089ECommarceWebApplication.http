@@ -1,22 +1,33 @@
 ###
 
-GET https://localhost:5056
+GET http://localhost:5056
 
 ###
 
-GET https://localhost:5056/api/catagories
+POST http://localhost:5056/api/catagories
+Content-Type: application/json
+
+{
+  "name":"Clothing",
+  "description":"This is description."
+}
 
 ###
 
-POST https://localhost:5056/api/catagories
+GET http://localhost:5056/api/catagories
 
 ###
 
-PUT https://localhost:5056/hello
+PUT http://localhost:5056/api/catagories/0fdfaabd-515d-47c1-9597-7125c4858b46
+Content-Type: application/json
 
+{
+  "name":"Clothing 2",
+  "description":"Bad Catagory."
+}
 
 ###
 
-POST https://localhost:5056/hello
+DELETE http://localhost:5056/api/catagories/82555dc9-eec0-404f-a655-07a25985b1bd
 
 
