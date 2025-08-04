@@ -8,17 +8,16 @@ POST http://localhost:5056/api/catagories
 Content-Type: application/json
 
 {
-  "name":"Clothing",
+  "name":"Smartphone & electronics",
   "description":"This is description."
 }
 
 ###
 
-GET http://localhost:5056/api/catagories
-
+GET http://localhost:5056/api/catagories?searchValue=electronics
 ###
 
-PUT http://localhost:5056/api/catagories/0fdfaabd-515d-47c1-9597-7125c4858b46
+PUT http://localhost:5056/api/catagories/ee36dc1c-4496-4ca9-8c4c-7b82de9c113a
 Content-Type: application/json
 
 {
@@ -28,6 +27,6 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:5056/api/catagories/82555dc9-eec0-404f-a655-07a25985b1bd
+DELETE http://localhost:5056/api/catagories/a5631e6d-dd19-4977-8848-64570bf2862b
 
 

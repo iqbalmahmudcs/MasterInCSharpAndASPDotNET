@@ -37,13 +37,15 @@ app.MapPost("/api/catagories", ([FromBody] Catagory catagorydata) =>
 });
 
 //Read => Read a Catagory => GET :/api/catagories
-app.MapGet("/api/catagories", () =>
+app.MapGet("/api/catagories", ([FromQuery] string searchValue = "") =>
 {
-    return Results.Ok(catagories);
+    var searchedCatagories = catagories.Where(c => c.Name.Contains(searchValue, StringComparison.OrdinalIgnoreCase)).ToList();
+
+    return Results.Ok(searchedCatagories);
 });
 
 //Delete => Delete a Catagory => Delete : /api/catagories
-app.MapDelete("/api/catagories/{catagoryID}", (Guid catagoryID) =>
+app.MapDelete("/api/catagories/{catagoryID:guid}", (Guid catagoryID) =>
 {
     var foundCatagory = catagories.FirstOrDefault(catagory => catagory.CatagoryId == catagoryID);
     if (foundCatagory == null)
@@ -56,7 +58,7 @@ app.MapDelete("/api/catagories/{catagoryID}", (Guid catagoryID) =>
 });
 
 
-app.MapPut("/api/catagories/{catagoryID}", (Guid catagoryID, [FromBody] Catagory catagoryData) =>
+app.MapPut("/api/catagories/{catagoryID:guid}", (Guid catagoryID, [FromBody] Catagory catagoryData) =>
 {
     var foundCatagory = catagories.FirstOrDefault(catagory => catagory.CatagoryId == catagoryID);
     if (foundCatagory == null)
@@ -75,7 +77,7 @@ app.Run();
 public record Catagory
 {
     public Guid CatagoryId {  get; set; }
-    public string? Name { get; set; }
+    public string Name { get; set; }
     public string? Description { get; set; }
     public DateTime CreatedAt { get; set; }
 
